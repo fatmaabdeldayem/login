@@ -1,0 +1,59 @@
+body{
+    background-color: #24353f;
+}
+.login-sys{
+    background-color: inherit;
+}
+h1 {
+    color: #17a2b8;
+}
+.w-80{
+    width: 80%;
+}
+span{
+    cursor: pointer;
+}
+.btn-outline-info:hover{
+    color: white;
+    background-color: #17a2b8;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+::placeholder{
+    color: #b6b6b6 !important;
+}
+.form-control {
+    color: white;
+    box-shadow: none;
+    border-color: white;
+    background-color: #24353f;
+   
+   
+ 
+}
+.form-control:focus{
+    background-color: #24353f;
+    border-color:#17a2b8 ;
+    color: white;
+    box-shadow: none;
+   
+}
+.outbtn{
+    color:#b6b6b6 ;
+}
+.navbar-toggler-icon{
+   
+    --bs-navbar-toggler-icon-bg: url(../imgs/download.svg)
+}
+.bg-body-tertiary{
+    background-color: #24353f !important;
+}
+.navbar-toggler{
+  border: #535252 1px solid;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border-color:white ;
+}

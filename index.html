@@ -1,0 +1,77 @@
+<html>
+
+<head>
+  
+<title>Login</title>
+  <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+   
+
+   
+</head>
+
+<body >
+ <div class=" w-75 mx-auto text-center shadow-lg mt-5 d-flex justify-content-center " >
+
+ <div class="w-80">
+  <h1 class="pt-5 pb-3">Smart Login System</h1>
+  <div class="login-sys ">
+    <input type="email" class="form-control mb-3 "  placeholder="Enter Your Email">
+  <input type="password" class="form-control mb-4 "  placeholder="Enter Your Password">
+ 
+  <p class="text-danger pb-3 d-none">incorrect email or password</p>
+  <p class="text-danger pb-3 lognalrt d-none">All inputs is required</p>
+  <button  class="btn btn-outline-info w-100  mb-3 enter shadow-lg" >Login</button>
+  <p class="text-white pb-3">Don’t have an account? <span>Sign Up</span></p>
+  </div>
+
+  <div class="sign-up d-none">
+    <input type="text" class="form-control mb-3 "  placeholder="Enter Your Name">
+    <input type="email" class="form-control mb-3 "  placeholder="Enter Your Email">
+    <input type="password" class="form-control mb-4 "  placeholder="Enter Your Password">
+    <p class="text-danger pb-3 d-none">All inputs is required</p>
+    <p class="text-danger pb-3 d-none alrt-repeat-email">email already exists</p>
+    <p class="text-success pb-3 d-none sucss">Success</p>
+    <button  class="btn btn-outline-info w-100  enter mb-3" >sign Up</button>
+    <p class="text-white pb-3">Don’t have an account? <span>Sign IN</span></p>
+  </div>
+  
+  
+  
+ </div>
+
+</div> 
+
+ 
+<div class="welcom d-none ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <button class="btn  btn-outline-warning outbtn  ">Logout</button>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+ <div class="d-flex justify-content-center align-items-center txt-welcom h-100 text-center shadow-lg">
+  
+    <h1 class="w-50 py-5  shadow-lg h-25">Welcome </h1>
+  
+ </div>
+</div>
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  
+
+</body>
+
+</html>
